@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">name</string>
+    <string name="_8_00_22_00">如果设置[只在白天开启],则只在8:00-22:00之间生效</string>
+    <string name="money">2,210,000元</string>
+</resources>

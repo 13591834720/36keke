@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/three_hundred_and_ten"
+        android:layout_height="@dimen/three_hundred"
+        android:background="@mipmap/iv_indstry_intro"
+     >
+        <Button
+            android:id="@+id/news_gift_butn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/thirty"
+            android:background="@drawable/shape_two"
+            android:text="@string/gift_attestation"
+            android:textColor="@color/white"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <include layout="@layout/mine_title" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+       android:padding="@dimen/five">
+
+        <ImageView
+            android:id="@+id/discovery_icon_insight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/discovery_icon_insight"/>
+
+        <TextView
+            android:layout_toRightOf="@id/discovery_icon_insight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/index"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/common_arrow"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:padding="@dimen/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/discovery_icon_explosive1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/discovery_icon_explosive1"/>
+
+        <TextView
+            android:layout_toRightOf="@id/discovery_icon_explosive1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/power_project"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/common_arrow"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two"
+        android:background="@color/gray" />
+    <RelativeLayout
+        android:background="#FFFFFF"
+        android:padding="@dimen/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/discovery_icon_emergence1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/discovery_icon_emergence1"/>
+
+        <TextView
+            android:layout_toRightOf="@id/discovery_icon_emergence1"
+            android:text="@string/newproject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/common_arrow"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mine_popup">
+    <FrameLayout
+        android:id="@+id/item_news_pop_replace"
+        android:background="@color/drak_one"
+        android:alpha="0.1"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_one" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/work"
+        android:gravity="center"
+        android:textSize="@dimen/fifteen"
+        android:background="@color/white"
+
+       />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_one" />
+    <TextView
+        android:id="@+id/mine_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_mine"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/blue"
+       />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+    <TextView
+        android:id="@+id/mine_popou_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mine_cancle"
+        android:gravity="center"
+        android:textSize="@dimen/fifteen"
+        android:background="@color/white"
+      />
+
+
+</LinearLayout>

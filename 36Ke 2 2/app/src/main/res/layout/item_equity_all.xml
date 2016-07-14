@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/thirty"
+        android:background="@color/gray_one" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/all_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/all_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/all_logo"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/all_brief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/all_name"
+            android:layout_toRightOf="@id/all_logo"
+            android:ellipsize="end"
+            android:maxEms="14"
+            android:singleLine="true"
+            android:text="brief" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/list_Img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lead_all" />
+
+        <TextView
+            android:id="@+id/all_lead_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="lead_name" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/adnameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adname" />
+
+        <TextView
+            android:id="@+id/adcontentTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="adcontent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/memberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="member" />
+
+        <TextView
+            android:id="@+id/adcontent1Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="adcontent1"
+
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/ten"
+        android:background="@color/gray_one" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five"
+                android:text="@string/rais" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already" />
+
+                <TextView
+
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/percent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ProgressBar
+                android:id="@+id/all_raising_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/two_hunder_"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten"
+                android:max="100"
+                android:progress="50" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/thirty"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/five"
+                android:background="@mipmap/icon_activity_wei9"
+                android:text="@string/offer_to_buy"
+                android:textColor="@color/white"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

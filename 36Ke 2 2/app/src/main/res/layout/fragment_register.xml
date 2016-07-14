@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="@string/register_content"
+        android:textSize="@dimen/ten" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/mine_register_phone_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/forty"
+            android:hint="@string/register_phone"
+           />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/mine_obtain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/forty"
+        android:text="@string/register" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/agree" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/agreement"
+        android:textColor="@color/blueness" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mine_bg_about">
+    <include layout="@layout/mine_title"/>
+    <ImageView
+        android:layout_margin="@dimen/fifteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/mine_icon_aboutlogo"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mine_setting_content"
+        android:gravity="center"
+        android:textSize="@dimen/fifteen"
+        android:layout_margin="@dimen/fifteen"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/one_hundred_and_fifty"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build"
+        android:gravity="center"
+        android:layout_margin="@dimen/five"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

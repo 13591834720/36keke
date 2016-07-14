@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten"
+            android:text="@string/support"
+            android:textSize="@dimen/twenty" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/ten"
+            android:background="@drawable/shape_three"
+            android:text="@string/play"
+            android:textColor="@color/blue" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/colorGray" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/get_screen_brightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten"
+            android:text="@string/gain"
+            android:textSize="@dimen/twenty" />
+
+        <SeekBar
+            android:id="@+id/news_screen_brightness"
+            android:layout_width="@dimen/two_hunder_"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/ten"
+            android:focusable="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/colorGray" />
+
+    <RelativeLayout
+       android:paddingTop="@dimen/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten"
+            android:text="@string/size"
+            android:textSize="@dimen/twenty" />
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/news_font_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten"
+                android:layout_weight="1"
+                android:text="小" />
+
+            <TextView
+                android:id="@+id/news_font_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten"
+                android:layout_weight="1"
+                android:text="@string/middle" />
+
+            <TextView
+                android:id="@+id/news_font_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten"
+                android:layout_weight="1"
+                android:text="@string/big" />
+
+            <TextView
+                android:id="@+id/news_font_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten"
+                android:layout_weight="1"
+                android:text="@string/large" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
